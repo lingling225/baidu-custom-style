@@ -1,0 +1,103 @@
+/* Google single-column responsive centering */
+
+@content-width: 1140px;
+@side-space: 24px;
+@search-width: 780px;
+
+/* Main result area */
+#main #rcnt,
+#main #cnt,
+#cnt #center_col,
+#cnt #foot,
+.col,
+.col #center_col,
+div[two-father] {
+  float: none !important;
+  width: calc(100vw - @side-space * 2) !important;
+  max-width: @content-width !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Single-column result cards */
+div[two-child],
+.A6K0A,
+.Wm5I1e {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.ULSxyf {
+  display: none;
+}
+
+/* Google search box */
+.srp form,
+.srp .big #tsf,
+.A8SBwf,
+.RNNXgb {
+  width: calc(100vw - @side-space * 2) !important;
+  max-width: @search-width !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+.A8SBwf {
+  max-width: @search-width !important;
+}
+
+/* Search navigation */
+#hdtb #hdtb-msb {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#hdtb #hdtb-msb-vis {
+  margin-left: 0 !important;
+}
+
+/* Image, video, and news sections */
+g-section-with-header {
+  text-align: center !important;
+}
+
+#rso g-scrolling-carousel {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Related searches */
+.rZj61 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.UFQ0Gb,
+.bzXtMb {
+  grid-column: auto / span 12 !important;
+}
+
+/* Auto-pager separator */
+.AC.sp-separator {
+  width: calc(100vw - @side-space * 2) !important;
+  max-width: @content-width !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Clear the original fixed offsets */
+body[google] .rZj61,
+body[google] .A8SBwf,
+body[google] #hdtb #hdtb-msb-vis {
+  margin-left: 0 !important;
+}
