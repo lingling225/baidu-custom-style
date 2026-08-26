@@ -1,0 +1,169 @@
+/* Baidu single-column layout */
+/* Top search area */
+#head .head_wrapper,
+.wrapper_new .head_wrapper {
+  transform: none !important;
+  justify-content: center !important;
+}
+.s_form > .s_form_wrapper {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  transform: none !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+form.fm .s_ipt_wr.bg {
+  min-width: 0 !important;
+}
+/* Main container */
+#wrapper #container.sam_newgrid {
+  padding-left: 0 !important;
+}
+#wrapper #content_left,
+#wrapper #container.sam_newgrid #rs,
+#wrapper #page {
+  float: none !important;
+  width: min(calc(100vw - 48px), 1240px) !important;
+  max-width: 1240px !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+}
+/* Search navigation */
+.result-molecule.new-pmd:has(#s_tab),
+.result-molecule.new-pmd[tpl='app/search-tag'] {
+  width: min(calc(100vw - 48px), 1240px) !important;
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  transform: none !important;
+  box-sizing: border-box !important;
+}
+#wrapper #s_tab {
+  position: relative !important;
+  left: auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 0 !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+#wrapper #s_tab .s_tab_inner {
+  width: 100% !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 18px !important;
+}
+#wrapper #s_tab .s_tab_inner > * {
+  margin: 0 !important;
+}
+/* Result cards */
+#wrapper #content_left .result,
+#wrapper #content_left .result-op,
+#wrapper #content_left > .c-container,
+#wrapper #content_left div[class*='vmp-project'] {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box !important;
+}
+/* New Baidu result modules */
+.result-molecule.new-pmd,
+.result-molecule.new-pmd[tpl='app/rs'],
+.result-molecule.new-pmd[tpl='app/page'] {
+  width: min(calc(100vw - 48px), 1240px) !important;
+  max-width: 1240px !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  transform: none !important;
+  box-sizing: border-box !important;
+}
+/* Related searches */
+.new-pmd #rs_new {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 14px 18px !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(8px) !important;
+  box-sizing: border-box !important;
+}
+.new-pmd #rs_new table {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.new-pmd #rs_new a,
+.new-pmd #rs_new td {
+  border-radius: 10px !important;
+}
+/* Pagination */
+#wrapper #page .page-inner {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+/* Top counters and search tools */
+#wrapper .head_nums_cont_outer {
+  position: relative !important;
+  left: auto !important;
+  width: min(calc(100vw - 48px), 1240px) !important;
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#wrapper .head_nums_cont_outer .nums,
+#wrapper .head_nums_cont_outer .search_tool_conter {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+/* Hide the footer links */
+.result-molecule.new-pmd[tpl='app/footer'],
+#foot,
+#help,
+.pagefoot,
+#wrapper .pagefoot,
+#content_left .pagefoot {
+  display: none !important;
+}
+/* Wide-screen fallback */
+@media screen and (min-width: 1921px) {
+  #head .head_wrapper,
+  .wrapper_new .head_wrapper {
+    transform: none !important;
+  }
+  #wrapper #container.sam_newgrid {
+    padding-left: 0 !important;
+  }
+  .s_form > .s_form_wrapper {
+    margin-left: 0 !important;
+  }
+  #wrapper #s_tab {
+    margin-left: 0 !important;
+    transform: none !important;
+  }
+}
