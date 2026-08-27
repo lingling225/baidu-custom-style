@@ -23,8 +23,8 @@ form.fm .s_ipt_wr.bg {
 #wrapper #container.sam_newgrid #rs,
 #wrapper #page {
   float: none !important;
-  width: min(calc(100vw - 48px), 1240px) !important;
-  max-width: 1240px !important;
+  width: min(calc(100vw - 48px), 900px) !important;
+  max-width: 900px !important;
   min-width: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -35,8 +35,8 @@ form.fm .s_ipt_wr.bg {
 /* Search navigation */
 .result-molecule.new-pmd:has(#s_tab),
 .result-molecule.new-pmd[tpl='app/search-tag'] {
-  width: min(calc(100vw - 48px), 1240px) !important;
-  max-width: 1240px !important;
+  width: min(calc(100vw - 48px), 900px) !important;
+  max-width: 900px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 0 !important;
@@ -86,8 +86,8 @@ form.fm .s_ipt_wr.bg {
 .result-molecule.new-pmd,
 .result-molecule.new-pmd[tpl='app/rs'],
 .result-molecule.new-pmd[tpl='app/page'] {
-  width: min(calc(100vw - 48px), 1240px) !important;
-  max-width: 1240px !important;
+  width: min(calc(100vw - 48px), 900px) !important;
+  max-width: 900px !important;
   min-width: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -131,8 +131,8 @@ form.fm .s_ipt_wr.bg {
 #wrapper .head_nums_cont_outer {
   position: relative !important;
   left: auto !important;
-  width: min(calc(100vw - 48px), 1240px) !important;
-  max-width: 1240px !important;
+  width: min(calc(100vw - 48px), 900px) !important;
+  max-width: 900px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
