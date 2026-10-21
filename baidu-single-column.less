@@ -164,6 +164,21 @@ form.fm .s_ipt_wr.bg {
   margin-left: 0 !important;
 }
 
+/* Keep the userscript custom button aligned with the content column */
+@media screen and (min-width: 1600px) {
+  body[baidu] #head #u #myuser {
+    position: fixed !important;
+    top: 17px !important;
+    right: ~"max(24px, calc((100vw - @{content-width}) / 2))" !important;
+    margin: 0 !important;
+    z-index: 302 !important;
+  }
+
+  body[baidu] .head-hidden #head #u #myuser {
+    display: none !important;
+  }
+}
+
 /* Hide the footer links */
 .result-molecule.new-pmd[tpl='app/footer'],
 #foot,
