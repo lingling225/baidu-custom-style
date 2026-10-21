@@ -58,6 +58,7 @@ body[baidu] #head .head_wrapper #result_logo {
     max-width: none !important;
     padding-right: 0 !important;
     display: block !important;
+    transform: translateX(max(0px, calc(100% - 220px))) !important;
     text-align: right !important;
     white-space: nowrap !important;
     z-index: 301 !important;
