@@ -205,25 +205,19 @@ form.fm .s_ipt_wr.bg {
   margin-left: 0 !important;
 }
 
-/* Keep the userscript custom button aligned with the content column */
-@media screen and (min-width: 1575px) and (max-width: 1920px),
-  screen and (min-width: 2000px) {
+/* Keep the userscript custom button left of the Baidu logo */
+@media screen and (min-width: 1366px) {
   body[baidu] #head #u #myuser {
     position: fixed !important;
     top: 17px !important;
-    right: ~"calc((100vw - @{content-width}) / 2 - (100vw - 100%))" !important;
+    left: calc(50vw - @content-half - 190px) !important;
+    right: auto !important;
     margin: 0 !important;
     z-index: 302 !important;
   }
 
   body[baidu] .head-hidden #head #u #myuser {
     display: none !important;
-  }
-}
-
-@media screen and (min-width: 1575px) and (max-width: 1599px) {
-  body[baidu] #head #u #myuser {
-    right: ~"calc((100vw - @{content-width}) / 2 - (100vw - 100%) + 8px)" !important;
   }
 }
 
