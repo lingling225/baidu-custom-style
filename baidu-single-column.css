@@ -142,12 +142,12 @@ form.fm .s_ipt_wr.bg {
   margin-left: 0 !important;
 }
 /* Keep the userscript custom button aligned with the content column */
-@media screen and (min-width: 1600px) and (max-width: 1920px),
+@media screen and (min-width: 1575px) and (max-width: 1920px),
   screen and (min-width: 2000px) {
   body[baidu] #head #u #myuser {
     position: fixed !important;
     top: 17px !important;
-    right: calc((100vw - 900px) / 2 - (100vw - 100%)) !important;
+    right: calc((100vw - 900px) / 2 - (100vw - 100%) + 8px) !important;
     margin: 0 !important;
     z-index: 302 !important;
   }
